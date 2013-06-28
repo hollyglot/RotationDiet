@@ -1,0 +1,25 @@
+<h1>Listing food_families</h1>
+
+<table>
+  <tr>
+    <th>Food family</th>
+    <th>Food group</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @food_families.each do |food_family| %>
+  <tr>
+    <td><%= food_family.food_family %></td>
+    <td><%= food_family.food_group_id %></td>
+    <td><%= link_to 'Show', food_family %></td>
+    <td><%= link_to 'Edit', edit_food_family_path(food_family) %></td>
+    <td><%= link_to 'Destroy', food_family, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Food family', new_food_family_path %>

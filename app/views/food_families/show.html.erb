@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Food family:</b>
+  <%= @food_family.food_family %>
+</p>
+
+<p>
+  <b>Food group:</b>
+  <%= @food_family.food_group_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_food_family_path(@food_family) %> |
+<%= link_to 'Back', food_families_path %>

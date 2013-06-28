@@ -1,0 +1,2 @@
+module FoodFamiliesHelper
+end

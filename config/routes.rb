@@ -1,4 +1,16 @@
 RotationDiet::Application.routes.draw do
+  resources :food_groups
+
+
+  resources :food_families
+
+
+  resources :food_items
+
+
+  resources :users
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

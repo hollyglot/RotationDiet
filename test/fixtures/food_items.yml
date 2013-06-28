@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  food_item: MyString
+  picture: MyString
+  food_family_id: MyString
+
+two:
+  food_item: MyString
+  picture: MyString
+  food_family_id: MyString
